@@ -1,0 +1,153 @@
+@media only screen and (min-width: 768px) {
+  .SPpart {
+    display: none; }
+  .mainvisual01 img {
+    width: 100%; }
+  .mainvisual02 img {
+    width: 100%; }
+  .cmtitle {
+    position: relative;
+    text-align: center;
+    height: 80px;
+    padding-top: 24px;
+    background-color: #fff;
+    box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.15); }
+    .cmtitle img {
+      width: 222px; }
+  .cmlist {
+    background: url(../img/bg_movie.png) center top no-repeat;
+    background-size: 100% 1060px; }
+    .cmlist ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .cmlist ul li {
+        width: 50%;
+        height: 353px;
+        text-align: center;
+        padding-top: 45px; }
+        .cmlist ul li a {
+          display: inline-block;
+          -webkit-transition: ease 0.15s;
+          transition: ease 0.15s; }
+          .cmlist ul li a img {
+            width: 386px;
+            border: 2px solid #fff; }
+          .cmlist ul li a:hover {
+            opacity: 0.7; }
+        .cmlist ul li .title {
+          padding-top: 6px; }
+          .cmlist ul li .title img {
+            height: 32px; }
+  .productinfo {
+    margin-bottom: 80px; }
+    .productinfo .title {
+      position: relative;
+      text-align: center;
+      height: 80px;
+      padding-top: 24px;
+      background-color: #fff;
+      box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.15); }
+      .productinfo .title img {
+        height: 32px; }
+    .productinfo .subtitle {
+      text-align: center;
+      padding: 80px 0 46px; }
+      .productinfo .subtitle img {
+        width: 842px; }
+    .productinfo ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 840px;
+      margin: 0 auto; }
+      .productinfo ul li {
+        text-align: center;
+        width: 50%; }
+        .productinfo ul li .name img {
+          height: 40px; }
+        .productinfo ul li a {
+          -webkit-transition: ease 0.15s;
+          transition: ease 0.15s; }
+          .productinfo ul li a:hover {
+            opacity: 0.7; }
+        .productinfo ul li:nth-of-type(1) .pct {
+          padding-top: 24px; }
+          .productinfo ul li:nth-of-type(1) .pct img {
+            width: 223px; }
+        .productinfo ul li:nth-of-type(2) .pct {
+          padding-top: 92px; }
+          .productinfo ul li:nth-of-type(2) .pct img {
+            width: 355px; } }
+
+@media only screen and (max-width: 768px) {
+  .PCpart {
+    display: none; }
+  .mainvisual01 img {
+    width: 100%; }
+  .mainvisual02 img {
+    width: 100%; }
+  .cmtitle {
+    position: relative;
+    text-align: center;
+    height: 50px;
+    padding-top: 16px;
+    background-color: #fff;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15); }
+    .cmtitle img {
+      height: 16px; }
+  .cmlist {
+    background: url(../img/bg_movie-sp.png) center top no-repeat;
+    background-size: 100% 1500px; }
+    .cmlist ul li {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 250px; }
+      .cmlist ul li .wrp {
+        text-align: center; }
+        .cmlist ul li .wrp a {
+          display: block;
+          width: 81%;
+          margin: 0 auto 5px; }
+          .cmlist ul li .wrp a img {
+            width: 100%; }
+        .cmlist ul li .wrp .title img {
+          height: 25px; }
+  .productinfo {
+    margin-bottom: 40px; }
+    .productinfo .title {
+      position: relative;
+      text-align: center;
+      height: 50px;
+      padding-top: 16px;
+      background-color: #fff;
+      box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15); }
+      .productinfo .title img {
+        height: 16px; }
+    .productinfo .subtitle {
+      text-align: center;
+      padding: 25px 0 20px; }
+      .productinfo .subtitle img {
+        width: 84%; }
+    .productinfo ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 84%;
+      margin: 0 auto; }
+      .productinfo ul li {
+        text-align: center;
+        width: 50%; }
+        .productinfo ul li .name img {
+          height: 15px; }
+        .productinfo ul li:nth-of-type(1) .pct {
+          padding-top: 8px; }
+          .productinfo ul li:nth-of-type(1) .pct img {
+            width: 84px; }
+        .productinfo ul li:nth-of-type(2) .pct {
+          padding-top: 34px; }
+          .productinfo ul li:nth-of-type(2) .pct img {
+            width: 133px; } }
